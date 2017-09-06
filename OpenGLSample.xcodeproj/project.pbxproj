@@ -12,6 +12,9 @@
 		B14281D11F5FED6D00D5E207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14281CF1F5FED6D00D5E207 /* Main.storyboard */; };
 		B14281D31F5FED6D00D5E207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14281D21F5FED6D00D5E207 /* Assets.xcassets */; };
 		B14281D61F5FED6D00D5E207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14281D41F5FED6D00D5E207 /* LaunchScreen.storyboard */; };
+		B14281DE1F5FEDF200D5E207 /* SampleGLKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14281DD1F5FEDF200D5E207 /* SampleGLKViewController.swift */; };
+		B14281E01F5FEE9E00D5E207 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B14281DF1F5FEE9E00D5E207 /* Shader.vsh */; };
+		B14281E21F5FEEBE00D5E207 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B14281E11F5FEEBE00D5E207 /* Shader.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		B14281D21F5FED6D00D5E207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B14281D51F5FED6D00D5E207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B14281D71F5FED6D00D5E207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14281DD1F5FEDF200D5E207 /* SampleGLKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleGLKViewController.swift; sourceTree = "<group>"; };
+		B14281DF1F5FEE9E00D5E207 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		B14281E11F5FEEBE00D5E207 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				B14281CB1F5FED6D00D5E207 /* AppDelegate.swift */,
 				B14281CD1F5FED6D00D5E207 /* ViewController.swift */,
+				B14281DD1F5FEDF200D5E207 /* SampleGLKViewController.swift */,
 				B14281CF1F5FED6D00D5E207 /* Main.storyboard */,
 				B14281D21F5FED6D00D5E207 /* Assets.xcassets */,
 				B14281D41F5FED6D00D5E207 /* LaunchScreen.storyboard */,
 				B14281D71F5FED6D00D5E207 /* Info.plist */,
+				B14281DF1F5FEE9E00D5E207 /* Shader.vsh */,
+				B14281E11F5FEEBE00D5E207 /* Shader.fsh */,
 			);
 			path = OpenGLSample;
 			sourceTree = "<group>";
@@ -124,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14281E01F5FEE9E00D5E207 /* Shader.vsh in Resources */,
 				B14281D61F5FED6D00D5E207 /* LaunchScreen.storyboard in Resources */,
 				B14281D31F5FED6D00D5E207 /* Assets.xcassets in Resources */,
 				B14281D11F5FED6D00D5E207 /* Main.storyboard in Resources */,
+				B14281E21F5FEEBE00D5E207 /* Shader.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14281DE1F5FEDF200D5E207 /* SampleGLKViewController.swift in Sources */,
 				B14281CE1F5FED6D00D5E207 /* ViewController.swift in Sources */,
 				B14281CC1F5FED6D00D5E207 /* AppDelegate.swift in Sources */,
 			);
